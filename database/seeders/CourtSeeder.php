@@ -7,7 +7,7 @@ use Faker\Factory as Faker;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class Court extends Seeder
+class CourtSeeder extends Seeder
 {
     /**
      * Run the database seeds.

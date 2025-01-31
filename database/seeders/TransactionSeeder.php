@@ -9,7 +9,7 @@ use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Hash;
 use faker\Factory as Faker;
 
-class Transaction extends Seeder
+class TransactionSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -29,7 +29,6 @@ class Transaction extends Seeder
                 'Endtime' => $faker->time(),
                 'Costume' => $faker->boolean(),
                 'Shoes' => $faker->boolean(),
-                'Total' => $faker->randomDigit(),
                 'Grandtotal' => $faker->numberBetween(10000, 1000000),
                 'Paytotal' => $faker->randomNumber(6, True),
             ]);

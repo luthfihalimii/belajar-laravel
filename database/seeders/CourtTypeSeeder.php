@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 use Faker\Factory as Faker;
 
-class court_type extends Seeder
+class CourtTypeSeeder extends Seeder
 {
     public function run(): void
     {
